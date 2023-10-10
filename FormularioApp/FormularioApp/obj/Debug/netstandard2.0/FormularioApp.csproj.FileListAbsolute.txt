@@ -1,0 +1,14 @@
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\bin\Debug\netstandard2.0\FormularioApp.deps.json
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\bin\Debug\netstandard2.0\FormularioApp.dll
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\bin\Debug\netstandard2.0\ref\FormularioApp.dll
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\bin\Debug\netstandard2.0\FormularioApp.pdb
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\obj\Debug\netstandard2.0\FormularioApp.csproj.AssemblyReference.cache
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\obj\Debug\netstandard2.0\FormularioApp.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\obj\Debug\netstandard2.0\FormularioApp.AssemblyInfoInputs.cache
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\obj\Debug\netstandard2.0\FormularioApp.AssemblyInfo.cs
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\obj\Debug\netstandard2.0\FormularioApp.dll
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\obj\Debug\netstandard2.0\ref\FormularioApp.dll
+C:\Users\johan\source\repos\FormularioApp\FormularioApp\FormularioApp\obj\Debug\netstandard2.0\FormularioApp.pdb

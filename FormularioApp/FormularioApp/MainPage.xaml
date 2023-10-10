@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormularioApp.MainPage">
+
+    <StackLayout Background="#f6f6f6"
+                 Margin="16">
+        <Label x:Name="lbl_principal"
+               Text="Bienvenido.Llene sus datos"
+               FontSize="Medium"/>
+        <ProgressBar x:Name="Progress"
+                     Progress=".0"/>
+        <Grid>
+            <Label x:Name="lbl_progress"
+                   Text="0%"
+                   FontSize="Large"
+                   TextColor="#6c7a86"/>
+            <Switch x:Name="sw_example"
+                    IsToggled="False"
+                    Toggled="sw_example_Toggled"/>
+        </Grid>
+        <Frame BackgroundColor="White">
+            <StackLayout>
+                <Entry x:Name="lbl_nombre"
+                       Placeholder="Ingrese su nombre"
+                       FontSize="Medium"
+                       Completed="lbl_nombre_Completed"
+                       TextChanged="lbl_nombre_TextChanged"/>
+                <Entry x:Name="lbl_correo"
+                       Placeholder="Ingrese su correo"
+                       FontSize="Medium"
+                       Completed="lbl_correo_Completed"/>
+                <Entry x:Name="lbl_password"
+                       Placeholder="Ingrese su contraseña"
+                       FontSize="Medium"
+                       IsPassword="True"
+                       Completed="lbl_password_Completed"/>
+                <Entry x:Name="lbl_password2"
+                       Placeholder="Repita la contraseña"
+                       FontSize="Medium"
+                       IsPassword="True"
+                       Completed="lbl_password2_Completed"/>
+                <Grid ColumnDefinitions="auto,*">
+                    <CheckBox x:Name="cbox_terminos"
+                              IsChecked="False"
+                              CheckedChanged="cbox_terminos_CheckedChanged"
+                              Grid.Column="0"/>
+                    <Label Text="Acepto los terminos y condiciones"
+                           Grid.Column="1"
+                           VerticalOptions="Center"/>
+                </Grid>
+            </StackLayout>
+        </Frame>
+        <Button x:Name="btn_Registrar"
+                Text="Registrar"
+                FontSize="Large"
+                Clicked="btn_registrar_Clicked"
+                CornerRadius="10"
+                IsEnabled="False"
+                TextColor="White"
+                BorderColor="#FF4081"
+                FontAttributes="Bold"
+                Padding="8"
+                Margin="32"
+                BackgroundColor="Blue"
+                BorderWidth="2"/>
+
+    </StackLayout>
+
+</ContentPage>
